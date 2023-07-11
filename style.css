@@ -1,0 +1,841 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+/********************************* * ! Style rules for defult **********************************/
+ body{
+     font-family: 'Inter', sans-serif;
+}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+     text-transform: capitalize;
+}
+/********************************* * ! Style rules for common **********************************/
+ .container{
+     max-width:1200px;
+     margin: auto;
+}
+ section{
+     padding: 100px 0;
+}
+ h2{
+     color: #333;
+     font-size: 40px;
+     font-family: Inter;
+     font-weight: 700;
+     margin: 21px 0 34px 0;
+}
+/********************************* * ! Style rules for navbar **********************************/
+ .top-nav{
+     background-image: linear-gradient(#6953D3,#FF847F );
+     display: flex;
+     justify-content: center;
+     padding: 20px 0;
+     align-items: center;
+}
+ .flex{
+     display: flex;
+     align-items: center;
+     color: rgba(255, 255, 255, 0.7);
+}
+ .flex a{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 17px;
+     line-height: 21px;
+     margin: 0 4px;
+     color: rgba(255, 255, 255, 0.7);
+}
+ .r-btn{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 17px;
+     line-height: 21px;
+     border-bottom: 2px solid #fff;
+     margin-left: 11px;
+     color: #FFFFFF;
+}
+ .s-btn{
+     width: 77px;
+     height: 28px;
+     background: #FFFFFF;
+     border-radius: 6px;
+     padding: 7px 16px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 15px;
+     color: #444444;
+}
+ .main-nav{
+     display: flex;
+     align-items: center;
+     margin-top: 26px;
+     position: relative;
+}
+ .main-nav ul{
+     display: flex;
+     align-items: center;
+     margin-left: 181px;
+}
+ .main-nav ul li{
+     margin: 0 30px;
+}
+ .main-nav li select{
+     border: none;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 17px;
+     line-height: 21px;
+     display: flex;
+     align-items: center;
+     color: #444444;
+}
+ .active{
+     color: #6953D3;
+}
+ .main-nav ul li a{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 17px;
+     line-height: 21px;
+     color: #444444;
+}
+ .main-nav ul li a:hover{
+     color: #6953D3;
+}
+ .p-flex{
+     display: flex;
+     margin-left: 30px;
+}
+ .p-flex img{
+     padding: 5px;
+     border: 1px solid #444444;
+     border-radius: 50%;
+}
+ .p-flex p{
+     margin: 0 18px;
+     display: grid;
+     place-content: center;
+     width: 103px;
+     height: 28px;
+     font-size: 9px;
+     border: 1px solid #444444;
+     border-radius:50px;
+}
+ .main-nav::before{
+     content: "";
+     position: absolute;
+     width: 518px;
+     height: 0px;
+     left: 113px;
+     top: 100px;
+     border: 1px solid #0000004e;
+}
+ .d-btn{
+     display: flex;
+     align-items: center;
+}
+ .down{
+     margin: 5px;
+}
+ .apple{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .flex-4{
+     display: flex;
+}
+ .frist-s-box{
+     display: flex;
+}
+ .second-s-box{
+     display: flex;
+     align-items: center;
+}
+ .second-s-box a{
+     margin: 50px 20px 0 0;
+}
+ .refresh{
+     display: flex;
+     align-items: center;
+     justify-content: left;
+}
+ .home-btn{
+     display: flex;
+     margin-left: 60px;
+}
+ .refre-btn{
+     width: 43px;
+     height: 43px;
+     display: grid;
+     place-content: center;
+     border-radius: 50%;
+     background: rgba(105, 83, 211, 0.1);
+}
+ .second-box{
+     display: flex;
+     justify-content: right;
+}
+ .second-box img{
+     position: absolute;
+     top: 250px;
+     right:50px;
+}
+ .frist-box{
+     margin-top: 100px;
+}
+ .easy-btn{
+     padding: 5px 20px;
+     background: rgba(105, 83, 211, 0.12);
+     border-radius: 5px;
+}
+ .frist-box h1{
+     margin-top: 46px;
+}
+ .frist-box h1,.heading{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 60px;
+     line-height: 73px;
+     display: flex;
+     align-items: center;
+     color: #333333;
+}
+ .frist-box h1 span{
+     background: linear-gradient(90.37deg, #6953D3 26.98%, #8566F1 49.72%, #A14EEE 72.46%, #F98085 95.21%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+}
+ .frist-box p{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 24px;
+     display: flex;
+     align-items: center;
+     color: rgba(51, 51, 51, 0.6);
+     margin: 19px 0 58px 0;
+}
+ .aplle-btn{
+     width: 241px;
+     height: 62px;
+     background: #6953D3;
+     border-radius: 50px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 24px;
+     display: flex;
+     align-items: center;
+     margin: 0 60px 0px 0;
+     color: #FFFFFF;
+}
+ .video-btn{
+     display: flex;
+     align-items: center;
+}
+ .v-btn{
+     width: 50px;
+     height: 50px;
+     border: 1px solid #6953D3;
+     border-radius: 50%;
+     display: grid;
+     place-content: center;
+     margin: 0 20px 0 0;
+}
+/********************************* * ! Style rules for install sec **********************************/
+ .install{
+     background-color: #F9F4F4;
+     margin-top: 50px;
+     position: relative;
+     overflow: hidden;
+}
+ .install-tittle h3{
+     text-align: center;
+     color: #333333;
+     font-size: 30px;
+     font-family: Inter;
+     font-weight: 600;
+}
+ .install-tittle span{
+     color:#6953D3 ;
+}
+ .install-card-parent{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 80px 0;
+}
+ .n-app{
+     color: #6953D3;
+     font-size: 17px;
+     font-family: inter;
+     font-weight: 500;
+}
+ .intall-l-tittle{
+     text-align: center;
+}
+ .install::before{
+     content: '';
+     top: 30rem;
+     left: 23rem;
+     border-radius: 702px;
+     width: 702px;
+     height: 702px;
+     border-bottom: none;
+     border: 2px dashed rgba(0, 0, 0, 0.20);
+     position: absolute;
+}
+ .install::after{
+     content: '';
+     top: 550px;
+     left: 26rem;
+     width: 600px;
+     height: 600px;
+     border-radius: 500px;
+     height: 702px;
+     border-bottom: none;
+     border: 2px dashed rgba(0, 0, 0, 0.20);
+     position: absolute;
+}
+ .intall-span{
+     background: linear-gradient(90.37deg, #6953D3 26.98%, #8566F1 49.72%, #A14EEE 72.46%, #F98085 95.21%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+}
+ .awesome-parent{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 86px;
+}
+ .awesome-card{
+     z-index: 2;
+}
+ .awesome-card p{
+     color: #000;
+     text-align: center;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 900;
+     margin-top: 33px;
+}
+ .circle{
+     position: relative;
+}
+ .circle::before{
+     content: 'new';
+     display: grid;
+     place-content: center;
+     top: 0;
+     left: 90px;
+     width: 45px;
+     height: 45px;
+     border-radius: 45px;
+     background: #B4F59D;
+     position: absolute;
+     color: #1A6301;
+     font-size: 14px;
+     font-family: Inter;
+     font-weight: 500;
+     text-transform: capitalize;
+}
+ .z-index{
+     background-color: #ffff;
+}
+/********************************* * ! Style rules for note sec **********************************/
+ .note-parent{
+     display: flex;
+     gap: 60px;
+}
+ .note-tittle span{
+     background: linear-gradient(90.37deg, #6953D3 26.98%, #8566F1 49.72%, #A14EEE 72.46%, #F98085 95.21%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+}
+ .note-tittle h6{
+     color: rgba(68, 68, 68, 0.60);
+     text-align: justify;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+     line-height: 176.523%;
+     width: 455px;
+}
+ .note-tittle p,.easy-bt{
+     width: 208px;
+     height: 45px;
+     flex-shrink: 0;
+     display: grid;
+     place-content: center;
+     border-radius: 5px;
+     background: rgba(105, 83, 211, 0.12);
+     color: #6953D3;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+}
+ .img-box img{
+     width: 623px;
+     height: 446px;
+     margin-left: 40px;
+}
+ .small-box{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+ .small-bg{
+     width: 43px;
+     height: 43px;
+     display: grid;
+     place-content: center;
+     border-radius: 43px;
+     background: rgba(105, 83, 211, 0.10);
+}
+ .small-box a{
+     color: #1E1E1E;
+     text-align: justify;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 700;
+     line-height: 203.523%;
+     margin-top: 30px;
+}
+ .free-btn{
+     width: 185px;
+     height: 49px;
+     border-radius: 50px;
+     background: #6953D3;
+     border: none;
+     color: #FFF;
+     font-size: 20px;
+     font-family: Inter;
+     font-weight: 500;
+     margin-top: 40px;
+}
+ .secutity-span{
+     background: linear-gradient(90.37deg, #6953D3 26.98%, #8566F1 49.72%, #A14EEE 72.46%, #F98085 95.21%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+}
+ .security-parent{
+     display: flex;
+     gap: 100px;
+}
+ .security-box{
+     margin-left: 20px;
+}
+ .security-box-2{
+     background-image: url(image/about_s4_bubble2\ 1.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 665px;
+}
+ .security-box h6{
+     color: rgba(68, 68, 68, 0.60);
+     text-align: justify;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+     line-height: 176.523%;
+}
+ .accor-icon{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+}
+ .accor-1{
+     width: 489px;
+     height: 203px;
+     flex-shrink: 0;
+     border-radius: 10px;
+     background: rgba(105, 83, 211, 0.15);
+     margin: 30px 0 21px 0;
+}
+ .accor-icon h5{
+     color: #4B2FD2;
+     text-align: justify;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 600;
+     line-height: 176.523%;
+     margin: 13px 0 14px 21px;
+}
+ .accor-p{
+     color: rgba(68, 68, 68, 0.60);
+     text-align: justify;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+     line-height: 176.523%;
+     margin: 0 0 26px 21px;
+}
+ .easy-bt{
+     width: 220px;
+}
+ .accor-icon-2{
+     display: flex;
+     gap: 250px;
+}
+ .accor-icon-2 h5,.accor-icon-3 h5{
+     color: #444;
+     text-align: justify;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 600;
+     line-height: 176.523%;
+}
+ .accor-icon-3{
+     display: flex;
+     gap: 205px;
+     margin: 20px 0 90px 0;
+}
+ .crome{
+     display: flex;
+     align-items: center;
+     padding: 8px 0 7px 27px;
+     gap: 19px;
+     border-radius: 100px;
+     background: #E7E5E5;
+     width: 227px;
+     height: 69px;
+     flex-shrink: 0;
+     position: relative;
+}
+ .crome::before{
+     content: '';
+     top: 20px;
+     left: 96px;
+     width: 1px;
+     height: 32px;
+     background: rgba(68, 68, 68, 0.50);
+     position: absolute;
+}
+ .crome-tittle h6{
+     color: rgba(68, 68, 68, 0.70);
+     text-align: justify;
+     font-size: 10px;
+     font-family: Inter;
+     font-weight: 500;
+     line-height: 176.523%;
+}
+ .crome-tittle h5{
+     color: #444;
+     text-align: justify;
+     font-size: 11px;
+     font-family: Inter;
+     font-weight: 600;
+     line-height: 176.523%;
+}
+ .focus-parent{
+     display: flex;
+     gap: 154px;
+}
+ .focus-btn,.app-btn{
+     width: 175px;
+     height: 45px;
+     flex-shrink: 0;
+}
+ .focus-span{
+     background: linear-gradient(90.37deg, #6953D3 26.98%, #8566F1 49.72%, #A14EEE 72.46%, #F98085 95.21%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+}
+ .focus-tittle h6{
+     color: rgba(68, 68, 68, 0.60);
+     text-align: justify;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+     line-height: 176.523%;
+     margin-bottom: 44px;
+}
+ .focus-box{
+     margin-left: 60px;
+     background-image: url(image/about_s4_bubble\ 3.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ .app-tittle{
+     text-align: center;
+}
+ .app-span{
+     background: linear-gradient(90.37deg, #6953D3 26.98%, #8566F1 49.72%, #A14EEE 72.46%, #F98085 95.21%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+}
+ .apps-btn{
+     border-radius: 5px;
+     background: rgba(105, 83, 211, 0.15);
+     width: 193px;
+     height: 52px;
+     flex-shrink: 0;
+     padding: 10px 20px;
+     color: #6953D3;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+}
+ .app-parent{
+     display: flex;
+     justify-content: space-between;
+     margin: 100px 0;
+     background-image: url(image/about_s4_bubble2\ 1.png);
+     background-size: contain;
+}
+ .icon-box-2{
+     margin-top: 80px;
+}
+ .icon-box-3{
+     margin-top: -30px;
+}
+ .icon-box-4{
+     margin-top: 90px;
+}
+ .mobile-parent{
+     display: flex;
+     justify-content: space-between;
+     background: #F9F4F4;
+     padding-top: 53px;
+}
+ .mobile-2{
+     margin-top: 20px;
+}
+ .mobile-3{
+     margin-top: -18px;
+}
+ .mobile-5{
+     margin-top: -35px;
+}
+ .customer-parent{
+     display: flex;
+     gap: 103px;
+}
+ .cus-btn{
+     width: 133px;
+     height: 45px;
+     flex-shrink: 0;
+     border-radius: 5px;
+     padding: 8px 10px;
+     background: rgba(105, 83, 211, 0.12);
+     color: #6953D3;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+}
+ .cus-span{
+     background: linear-gradient(90.37deg, #6953D3 26.98%, #8566F1 49.72%, #A14EEE 72.46%, #F98085 95.21%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+}
+ .cus-h6{
+     color: rgba(68, 68, 68, 0.60);
+     text-align: justify;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+     line-height: 176.523%;
+     margin-bottom: 67px;
+}
+ .cus-rating-parent{
+     display: flex;
+     gap: 119px;
+}
+ .view-parent{
+     display: flex;
+     gap: 24px;
+}
+ .view{
+     display: flex;
+     gap: 16px;
+     align-items: center;
+}
+ .view-btn{
+     border-radius: 51px;
+     border: 1px solid #6953D3;
+     width: 51px;
+     height: 49px;
+     flex-shrink: 0;
+     display: grid;
+     place-content: center;
+}
+ .promotion p{
+     color: #333;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 500;
+}
+ .review h3{
+     color: #5038C6;
+     text-align: justify;
+     font-size: 35px;
+     font-family: Inter;
+     font-weight: 700;
+     line-height: 176.523%;
+}
+ .review h6{
+     color: #444;
+     text-align: justify;
+     font-size: 15px;
+     font-family: Inter;
+     font-weight: 500;
+     line-height: 176.523%;
+     margin-bottom: 33px;
+}
+ .cus-btn-2{
+     border-radius: 50px;
+     background: #6953D3;
+     width: 278px;
+     height: 49px;
+     flex-shrink: 0;
+     display: grid;
+     place-content: center;
+     color: #FFF;
+     font-size: 18px;
+     font-family: Inter;
+     font-weight: 600;
+}
+ .card-1{
+     width: 436px;
+     height: 150px;
+     flex-shrink: 0;
+     display: flex;
+     align-items: center;
+     gap: 12px;
+     border-radius: 20px;
+     background: #FFF;
+     box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+ .card-2{
+     margin: 33px 0 27px 34px;
+}
+ .cus-card-parent{
+     margin: 20px;
+     background-image: url(image/contact_globe\ 1.png);
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:cover ;
+     width: 800px;
+}
+ .customer{
+     margin-left: 30px;
+}
+ .join h2 {
+     text-align: center;
+     padding-top: 100px;
+}
+ .join-btn{
+     margin-left: 500px;
+}
+ .join-parent{
+     display: flex;
+     width: 1120px;
+     height: 202px;
+     flex-shrink: 0;
+     justify-content: space-between;
+     border-radius: 20px;
+     border: 1px solid rgba(0, 0, 0, 0.40);
+     margin:100px 0 0px 40px;
+}
+ .join-card{
+     display: flex;
+     align-items: center;
+     padding: 51px 0 45px 50px ;
+     gap: 11px;
+}
+ .join-3{
+     margin-right: 50px;
+}
+ .footer-p{
+     text-align: center;
+}
+ .footer-btn-parent{
+     display: flex;
+     justify-content: center;
+     margin: 52px 0 170px 0;
+     gap: 27px;
+}
+ .apple-f-btn{
+     border-radius: 50px;
+     background: #6953D3;
+     width: 359px;
+     height: 62px;
+     flex-shrink: 0;
+     display: flex;
+     align-items: center;
+     padding: 16px 0 16px 31px;
+}
+ .apple-text{
+     color: #FFF;
+     font-size: 18px;
+     font-family: Inter;
+     font-weight: 500;
+}
+ .gogle-f-btn{
+     border-radius: 50px;
+     border: 1px solid #000;
+     width: 359px;
+     height: 62px;
+     flex-shrink: 0;
+     display: flex;
+     align-items: center;
+     padding: 16px 0 16px 31px;
+}
+ .google-btn{
+     color: #444;
+     font-size: 18px;
+     font-family: Inter;
+     font-weight: 500;
+}
+ .footer-flex img{
+     border: none;
+}
+ footer{
+     background: #F9F4F4;
+     position: relative;
+     padding-bottom: 42px;
+}
+ footer::before{
+     position: absolute;
+     content: '';
+     top: 550px;
+     left: 130px;
+     background: rgba(0, 0, 0, 0.40);
+     width: 1157px;
+     height: 1px;
+}
+ .footer-nav::before{
+     border: none;
+}
+ .footer-nav{
+     margin-left: 130px;
+}
+ .copyright{
+     text-align: center;
+     margin-top: 30px;
+     color: rgba(0, 0, 0, 0.60);
+     font-size: 15px;
+     font-family: Inter;
+     line-height: 176.523%;
+}
